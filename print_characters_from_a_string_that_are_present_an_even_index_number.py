@@ -3,6 +3,9 @@
 # For example, str = "pynative" so you should display ‘p’, ‘n’, ‘t’, ‘v’.
 
 # Ask user for input
+
+word = str(input("Enter word/s: "))
+
 # Convert string to list
 # Use list slicing
 # Print even index characters
