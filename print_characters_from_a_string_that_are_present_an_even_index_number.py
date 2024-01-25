@@ -9,3 +9,9 @@ word = str(input("Enter word/s: "))
 # Convert string to list
 # Use list slicing
 # Print even index characters
+
+print("\nEven Index Characters: \n")
+
+index_characters = list(word)
+for i in index_characters[0::2]:
+    print(i)
